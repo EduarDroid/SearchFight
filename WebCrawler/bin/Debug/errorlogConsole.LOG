@@ -1,0 +1,6 @@
+System.ArgumentException: Ya se agregó un elemento con la misma clave.
+   en System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   en System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   en System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   en WebCrawler.Program.EvaluateSearchKey(String[] queries) en D:\EduarDroid\WebCrawler\WebCrawler\WebCrawler\Program.cs:línea 47
+   en WebCrawler.Program.Main(String[] args) en D:\EduarDroid\WebCrawler\WebCrawler\WebCrawler\Program.cs:línea 15
