@@ -1,5 +1,0 @@
-System.ArgumentException: At least one object must implement IComparable.
-   at System.Collections.Comparer.Compare(Object a, Object b)
-   at System.Collections.Generic.ObjectComparer`1.Compare(T x, T y)
-   at System.Linq.Enumerable.Max[TSource](IEnumerable`1 source)
-   at WebCrawler.Program.Main(String[] args) in E:\Personal\WebCrawler\WebCrawler\Program.cs:line 56
